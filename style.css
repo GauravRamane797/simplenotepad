@@ -1,0 +1,29 @@
+#button {
+    width: "25px";
+    font-style: "italic";
+    height: "24px";
+    font-size: "30";
+}
+
+#button1 {
+    width: 26px;
+    height: 24px;
+    text-decoration: underline;
+    font-size: 8;
+}
+
+#button2 {
+    width: 26px;
+    height: 24px;
+}
+
+#output {
+    width: 399px;
+    height: 182px;
+}
+
+p {
+    align-items: center;
+    text-align: center;
+
+}

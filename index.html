@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<title>simple notepad</title>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="load_text()">
+    <form name="controls" id="controls">
+        <select style="width: 310px">
+            <option selected>fonts</option>
+            <option>arial black</option>
+        </select>
+
+        <input id="button1" type="button" value="B" name="button1" onclick="bold_click()" />
+
+        <input type="button" value="i" onclick="italic_click()" />
+
+        <input id="button1" type="button" value="u" name="button1" onclick="underline_click()" />
+
+        <input id="button2" type="button" value="n" name="button1" onclick="normal_click()" />
+
+        <br /><textarea id="output" name="output" rows="9" wrap="virtual" cols="48"></textarea><br />
+
+        <input type="reset" value="clear" />
+        <button id="sumit" type="submit">Save</button>
+
+    </form>
+</body>
+<script src="script.js"> </script>
+
+</html>
